@@ -1,0 +1,18 @@
+SHAPE TEXT
+  .name hello
+  .text "Hello"
+  .color red
+  .x 100
+  .y 100
+ENDSHAPE
+
+SHAPE TEXT
+  .name world
+  .text "World"
+  .color red
+  .x 300
+  .y 100
+ENDSHAPE
+
+MOVE hello EAST 50
+MOVE world WEST 50
