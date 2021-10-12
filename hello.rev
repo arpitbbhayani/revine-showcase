@@ -6,4 +6,4 @@ SHAPE TEXT
   .y 100
 ENDSHAPE
 
-MOVE hello RIGHT 50
+MOVE greeting RIGHT 50
