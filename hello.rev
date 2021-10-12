@@ -1,0 +1,9 @@
+SHAPE TEXT
+  .name greeting
+  .text "Hello"
+  .color red
+  .x 100
+  .y 100
+ENDSHAPE
+
+MOVE hello RIGHT 50
