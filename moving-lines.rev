@@ -1,0 +1,92 @@
+SHAPE LINE
+  .name frontleft
+  .color red
+  .x1 200
+  .y1 200
+  .x2 200
+  .y2 300
+ENDSHAPE
+
+SHAPE LINE
+  .name frontright
+  .color blue
+  .x1 300
+  .y1 200
+  .x2 300
+  .y2 300
+ENDSHAPE
+
+SHAPE LINE
+  .name frontbottom
+  .color green
+  .x1 200
+  .y1 300
+  .x2 300
+  .y2 300
+ENDSHAPE
+
+SHAPE LINE
+  .name fronttop
+  .color black
+  .x1 200
+  .y1 200
+  .x2 300
+  .y2 200
+ENDSHAPE
+
+SHAPE LINE
+  .name backleft
+  .color green
+  .x1 225
+  .y1 225
+  .x2 225
+  .y2 325
+ENDSHAPE
+
+SHAPE LINE
+  .name backright
+  .color red
+  .x1 325
+  .y1 225
+  .x2 325
+  .y2 325
+ENDSHAPE
+
+SHAPE LINE
+  .name backbottom
+  .color black
+  .x1 225
+  .y1 325
+  .x2 325
+  .y2 325
+ENDSHAPE
+
+SHAPE LINE
+  .name backtop
+  .color blue
+  .x1 225
+  .y1 225
+  .x2 325
+  .y2 225
+ENDSHAPE
+
+
+MOVE fronttop UP 25
+MOVE frontbottom DOWN 25
+MOVE frontleft LEFT 25
+MOVE frontright RIGHT 25
+
+MOVE fronttop DOWN 25
+MOVE frontbottom UP 25
+MOVE frontleft RIGHT 25
+MOVE frontright LEFT 25
+
+MOVE backtop UP 25
+MOVE backbottom DOWN 25
+MOVE backleft LEFT 25
+MOVE backright RIGHT 25
+
+MOVE backtop DOWN 25
+MOVE backbottom UP 25
+MOVE backleft RIGHT 25
+MOVE backright LEFT 25
