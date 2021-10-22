@@ -107,3 +107,63 @@ SHAPE LINE
   .x2 420
   .y2 460
 ENDSHAPE
+
+SHAPE LINE
+  .name Window1
+  .color black
+  .x1 230
+  .y1 360
+  .x2 245
+  .y2 360
+  .width 15
+ENDSHAPE
+
+SHAPE LINE
+  .name Window2
+  .color black
+  .x1 260
+  .y1 360
+  .x2 275
+  .y2 360
+  .width 15
+ENDSHAPE
+
+SHAPE LINE
+  .name Window3
+  .color black
+  .x1 290
+  .y1 360
+  .x2 305
+  .y2 360
+  .width 15
+ENDSHAPE
+
+SHAPE LINE
+  .name Base3
+  .color black
+  .x1 100
+  .y1 440
+  .x2 400
+  .y2 440
+  .width 5
+ENDSHAPE
+
+SHAPE LINE
+  .name Base2
+  .color black
+  .x1 90
+  .y1 420
+  .x2 410
+  .y2 420
+  .width 4
+ENDSHAPE
+
+SHAPE LINE
+  .name Base1
+  .color black
+  .x1 80
+  .y1 400
+  .x2 420
+  .y2 400
+  .width 3
+ENDSHAPE
