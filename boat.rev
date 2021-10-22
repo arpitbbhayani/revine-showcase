@@ -1,0 +1,109 @@
+SHAPE LINE
+  .name Pole
+  .color black
+  .x1 250
+  .y1 0
+  .x2 250
+  .y2 340
+  .width 5
+ENDSHAPE
+
+SHAPE LINE
+  .name LeftSailLeft
+  .color black
+  .x1 250
+  .y1 20
+  .x2 150
+  .y2 310
+ENDSHAPE
+
+SHAPE LINE
+  .name LeftSailBottom
+  .color black
+  .x1 150
+  .y1 310
+  .x2 250
+  .y2 310
+ENDSHAPE
+
+SHAPE LINE
+  .name RightSailLeft
+  .color black
+  .x1 250
+  .y1 110
+  .x2 350
+  .y2 310
+ENDSHAPE
+
+SHAPE LINE
+  .name RightSailBottom
+  .color black
+  .x1 350
+  .y1 310
+  .x2 250
+  .y2 310
+ENDSHAPE
+
+SHAPE LINE
+  .name DeckTop
+  .color black
+  .x1 220
+  .y1 340
+  .x2 400
+  .y2 340
+ENDSHAPE
+
+SHAPE LINE
+  .name DeckLeft
+  .color black
+  .x1 220
+  .y1 340
+  .x2 200
+  .y2 380
+ENDSHAPE
+
+SHAPE LINE
+  .name DeckRight
+  .color black
+  .x1 400
+  .y1 340
+  .x2 420
+  .y2 380
+ENDSHAPE
+
+
+SHAPE LINE
+  .name BaseTop
+  .color black
+  .x1 50
+  .y1 380
+  .x2 450
+  .y2 380
+ENDSHAPE
+
+SHAPE LINE
+  .name BaseBottom
+  .color black
+  .x1 80
+  .y1 460
+  .x2 420
+  .y2 460
+ENDSHAPE
+
+SHAPE LINE
+  .name BaseLeft
+  .color black
+  .x1 50
+  .y1 380
+  .x2 80
+  .y2 460
+ENDSHAPE
+
+SHAPE LINE
+  .name BaseRight
+  .color black
+  .x1 450
+  .y1 380
+  .x2 420
+  .y2 460
+ENDSHAPE
