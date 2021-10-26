@@ -5,7 +5,7 @@ SHAPE LINE
   .y1 0
   .x2 250
   .y2 340
-  .width 5
+  .thickness 5
 ENDSHAPE
 
 SHAPE LINE
@@ -115,7 +115,7 @@ SHAPE LINE
   .y1 360
   .x2 245
   .y2 360
-  .width 15
+  .thickness 15
 ENDSHAPE
 
 SHAPE LINE
@@ -125,7 +125,7 @@ SHAPE LINE
   .y1 360
   .x2 275
   .y2 360
-  .width 15
+  .thickness 15
 ENDSHAPE
 
 SHAPE LINE
@@ -135,7 +135,7 @@ SHAPE LINE
   .y1 360
   .x2 305
   .y2 360
-  .width 15
+  .thickness 15
 ENDSHAPE
 
 SHAPE LINE
@@ -145,7 +145,7 @@ SHAPE LINE
   .y1 440
   .x2 400
   .y2 440
-  .width 5
+  .thickness 5
 ENDSHAPE
 
 SHAPE LINE
@@ -155,7 +155,7 @@ SHAPE LINE
   .y1 420
   .x2 410
   .y2 420
-  .width 4
+  .thickness 4
 ENDSHAPE
 
 SHAPE LINE
@@ -165,5 +165,5 @@ SHAPE LINE
   .y1 400
   .x2 420
   .y2 400
-  .width 3
+  .thickness 3
 ENDSHAPE
