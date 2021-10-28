@@ -1,0 +1,109 @@
+SHAPE RECTANGLE
+  .x 175 .y 100 .width 150 .height 350
+  .thickness 5
+ENDSHAPE
+
+SHAPE LINE
+  .x1 175 .y1 200 .x2 325 .y2 200
+  .thickness 3
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 185 .y 125 .width 20 .height 73
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 205 .y 145 .width 20 .height 53
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 245 .y 150 .width 65 .height 15
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 235 .y 166 .width 85 .height 15
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 235 .y 182 .width 85 .height 15
+ENDSHAPE
+
+SHAPE LINE
+  .x1 175 .y1 300 .x2 325 .y2 300
+  .thickness 3
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 195 .y 250 .width 55 .height 15
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 185 .y 266 .width 75 .height 15
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 185 .y 282 .width 85 .height 15
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 280 .y 225 .width 10 .height 73
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 290 .y 245 .width 10 .height 53
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 300 .y 235 .width 15 .height 63
+ENDSHAPE
+
+
+SHAPE LINE
+  .x1 175 .y1 395 .x2 325 .y2 395
+  .thickness 3
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 185 .y 320 .width 10 .height 73
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 195 .y 340 .width 10 .height 53
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 205 .y 330 .width 15 .height 63
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 220 .y 325 .width 11 .height 68
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 231 .y 320 .width 13 .height 73
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 270 .y 330 .width 15 .height 63
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 285 .y 335 .width 15 .height 58
+ENDSHAPE
+
+SHAPE RECTANGLE
+  .x 300 .y 330 .width 15 .height 63
+ENDSHAPE
+
+
+SHAPE LINE
+  .x1 0 .y1 450 .x2 500 .y2 450
+ENDSHAPE
+
+SHAPE LINE
+  .x1 5 .y1 455 .x2 495 .y2 455
+ENDSHAPE
+
+SHAPE LINE
+  .x1 10 .y1 460 .x2 490 .y2 460
+ENDSHAPE
