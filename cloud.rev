@@ -1,0 +1,39 @@
+SHAPE CIRCLE
+  .x 100
+  .y 200
+  .radius 75
+  .color black
+  .fill black
+ENDSHAPE
+
+SHAPE CIRCLE
+  .x 170
+  .y 170
+  .radius 125
+  .color black
+  .fill black
+ENDSHAPE
+
+SHAPE CIRCLE
+  .x 270
+  .y 160
+  .radius 145
+  .color black
+  .fill black
+ENDSHAPE
+
+SHAPE CIRCLE
+  .x 330
+  .y 180
+  .radius 100
+  .color black
+  .fill black
+ENDSHAPE
+
+SHAPE CIRCLE
+  .x 380
+  .y 200
+  .radius 75
+  .color black
+  .fill black
+ENDSHAPE
