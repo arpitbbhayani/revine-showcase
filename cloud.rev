@@ -1,39 +1,40 @@
 SHAPE CIRCLE
-  .x 100
-  .y 200
-  .radius 75
-  .color bluegrey
-  .fill bluegrey
+  .name c1
+  .x 100 .y 200 .radius 75 .color lightgrey .fill lightgrey
 ENDSHAPE
 
 SHAPE CIRCLE
-  .x 170
-  .y 170
-  .radius 125
-  .color bluegrey
-  .fill bluegrey
+  .name c2
+  .x 170 .y 170 .radius 125 .color lightgrey .fill lightgrey
 ENDSHAPE
 
 SHAPE CIRCLE
-  .x 270
-  .y 160
-  .radius 145
-  .color bluegrey
-  .fill bluegrey
+  .name c3
+  .x 270 .y 160 .radius 145 .color lightgrey .fill lightgrey
 ENDSHAPE
 
 SHAPE CIRCLE
-  .x 330
-  .y 180
-  .radius 100
-  .color bluegrey
-  .fill bluegrey
+  .name c4
+  .x 330 .y 180 .radius 100 .color lightgrey .fill lightgrey
 ENDSHAPE
 
 SHAPE CIRCLE
-  .x 380
-  .y 200
-  .radius 75
-  .color bluegrey
-  .fill bluegrey
+  .name c5
+  .x 380 .y 200 .radius 75 .color lightgrey .fill lightgrey
 ENDSHAPE
+
+
+MOVE c1 RIGHT 50
+MOVE c1 LEFT 50
+
+MOVE c2 RIGHT 50
+MOVE c2 LEFT 50
+
+MOVE c3 RIGHT 50
+MOVE c3 LEFT 50
+
+MOVE c4 RIGHT 50
+MOVE c4 LEFT 50
+
+MOVE c5 RIGHT 50
+MOVE c5 LEFT 50
