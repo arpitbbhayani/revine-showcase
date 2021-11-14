@@ -1,169 +1,133 @@
 SHAPE LINE
   .name Pole
   .color black
-  .x1 250
-  .y1 0
-  .x2 250
-  .y2 340
+  .point1 (250, 0)
+  .point2 (250, 340)
   .thickness 5
 ENDSHAPE
 
 SHAPE LINE
   .name LeftSailLeft
   .color black
-  .x1 250
-  .y1 20
-  .x2 150
-  .y2 310
+  .point1 (250, 20)
+  .point2 (150, 310)
 ENDSHAPE
 
 SHAPE LINE
   .name LeftSailBottom
   .color black
-  .x1 150
-  .y1 310
-  .x2 250
-  .y2 310
+  .point1 (150, 310)
+  .point2 (250, 310)
 ENDSHAPE
 
 SHAPE LINE
   .name RightSailLeft
   .color black
-  .x1 250
-  .y1 110
-  .x2 350
-  .y2 310
+  .point1 (250, 110)
+  .point2 (350, 310)
 ENDSHAPE
 
 SHAPE LINE
   .name RightSailBottom
   .color black
-  .x1 350
-  .y1 310
-  .x2 250
-  .y2 310
+  .point1 (350, 310)
+  .point2 (250, 310)
 ENDSHAPE
 
 SHAPE LINE
   .name DeckTop
   .color black
-  .x1 220
-  .y1 340
-  .x2 400
-  .y2 340
+  .point1 (220, 340)
+  .point2 (400, 340)
 ENDSHAPE
 
 SHAPE LINE
   .name DeckLeft
   .color black
-  .x1 220
-  .y1 340
-  .x2 200
-  .y2 380
+  .point1 (220, 340)
+  .point2 (200, 380)
 ENDSHAPE
 
 SHAPE LINE
   .name DeckRight
   .color black
-  .x1 400
-  .y1 340
-  .x2 420
-  .y2 380
+  .point1 (400, 340)
+  .point2 (420, 380)
 ENDSHAPE
 
 
 SHAPE LINE
   .name BaseTop
   .color black
-  .x1 50
-  .y1 380
-  .x2 450
-  .y2 380
+  .point1 (50, 380)
+  .point2 (450, 380)
 ENDSHAPE
 
 SHAPE LINE
   .name BaseBottom
   .color black
-  .x1 80
-  .y1 460
-  .x2 420
-  .y2 460
+  .point1 (80, 460)
+  .point2 (420, 460)
 ENDSHAPE
 
 SHAPE LINE
   .name BaseLeft
   .color black
-  .x1 50
-  .y1 380
-  .x2 80
-  .y2 460
+  .point1 (50, 380)
+  .point2 (80, 460)
 ENDSHAPE
 
 SHAPE LINE
   .name BaseRight
   .color black
-  .x1 450
-  .y1 380
-  .x2 420
-  .y2 460
+  .point1 (450, 380)
+  .point2 (420, 460)
 ENDSHAPE
 
 SHAPE LINE
   .name Window1
   .color black
-  .x1 230
-  .y1 360
-  .x2 245
-  .y2 360
+  .point1 (230, 360)
+  .point2 (245, 360)
   .thickness 15
 ENDSHAPE
 
 SHAPE LINE
   .name Window2
   .color black
-  .x1 260
-  .y1 360
-  .x2 275
-  .y2 360
+  .point1 (260, 360)
+  .point2 (275, 360)
   .thickness 15
 ENDSHAPE
 
 SHAPE LINE
   .name Window3
   .color black
-  .x1 290
-  .y1 360
-  .x2 305
-  .y2 360
+  .point1 (290, 360)
+  .point2 (305, 360)
   .thickness 15
 ENDSHAPE
 
 SHAPE LINE
-  .name Base3
+  .name Base1
   .color black
-  .x1 100
-  .y1 440
-  .x2 400
-  .y2 440
+  .point1 (100, 440)
+  .point2 (400, 440)
   .thickness 5
 ENDSHAPE
 
 SHAPE LINE
   .name Base2
   .color black
-  .x1 90
-  .y1 420
-  .x2 410
-  .y2 420
+  .point1 (90, 420)
+  .point2 (410, 420)
   .thickness 4
 ENDSHAPE
 
 SHAPE LINE
-  .name Base1
+  .name Base3
   .color black
-  .x1 80
-  .y1 400
-  .x2 420
-  .y2 400
+  .point1 (80, 400)
+  .point2 (420, 400)
   .thickness 3
 ENDSHAPE
