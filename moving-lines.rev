@@ -1,73 +1,57 @@
 SHAPE LINE
   .name frontleft
   .color red
-  .x1 200
-  .y1 200
-  .x2 200
-  .y2 300
+  .point1 (200, 200)
+  .point2 (200, 300)
 ENDSHAPE
 
 SHAPE LINE
   .name frontright
   .color blue
-  .x1 300
-  .y1 200
-  .x2 300
-  .y2 300
+  .point1 (300, 200)
+  .point2 (300, 300)
 ENDSHAPE
 
 SHAPE LINE
   .name frontbottom
   .color green
-  .x1 200
-  .y1 300
-  .x2 300
-  .y2 300
+  .point1 (200, 300)
+  .point2 (300, 300)
 ENDSHAPE
 
 SHAPE LINE
   .name fronttop
   .color black
-  .x1 200
-  .y1 200
-  .x2 300
-  .y2 200
+  .point1 (200, 200)
+  .point2 (300, 200)
 ENDSHAPE
 
 SHAPE LINE
   .name backleft
   .color green
-  .x1 225
-  .y1 225
-  .x2 225
-  .y2 325
+  .point1 (225, 225)
+  .point2 (225, 325)
 ENDSHAPE
 
 SHAPE LINE
   .name backright
   .color red
-  .x1 325
-  .y1 225
-  .x2 325
-  .y2 325
+  .point1 (325, 225)
+  .point2 (325, 325)
 ENDSHAPE
 
 SHAPE LINE
   .name backbottom
   .color black
-  .x1 225
-  .y1 325
-  .x2 325
-  .y2 325
+  .point1 (225, 325)
+  .point2 (325, 325)
 ENDSHAPE
 
 SHAPE LINE
   .name backtop
   .color blue
-  .x1 225
-  .y1 225
-  .x2 325
-  .y2 225
+  .point1 (225, 225)
+  .point2 (325, 225)
 ENDSHAPE
 
 
