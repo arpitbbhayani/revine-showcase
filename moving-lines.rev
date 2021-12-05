@@ -1,76 +1,68 @@
-SHAPE LINE
-  .name frontleft
-  .color red
-  .point1 (200, 200)
-  .point2 (200, 300)
-ENDSHAPE
+shape frontleft(line):
+  .color = RED
+  .point1 = (200, 200)
+  .point2 = (200, 300)
+endshape
 
-SHAPE LINE
-  .name frontright
-  .color blue
-  .point1 (300, 200)
-  .point2 (300, 300)
-ENDSHAPE
+shape frontright(line):
+  .color = BLUE
+  .point1 = (300, 200)
+  .point2 = (300, 300)
+endshape
 
-SHAPE LINE
-  .name frontbottom
-  .color green
-  .point1 (200, 300)
-  .point2 (300, 300)
-ENDSHAPE
+shape frontbottom(line):
+  .color = GREEN
+  .point1 = (200, 300)
+  .point2 = (300, 300)
+endshape
 
-SHAPE LINE
-  .name fronttop
-  .color black
-  .point1 (200, 200)
-  .point2 (300, 200)
-ENDSHAPE
+shape fronttop(line):
+  .color = BLACK
+  .point1 = (200, 200)
+  .point2 = (300, 200)
+endshape
 
-SHAPE LINE
-  .name backleft
-  .color green
-  .point1 (225, 225)
-  .point2 (225, 325)
-ENDSHAPE
+shape backleft(line):
+  .color = GREEN
+  .point1 = (225, 225)
+  .point2 = (225, 325)
+endshape
 
-SHAPE LINE
-  .name backright
-  .color red
-  .point1 (325, 225)
-  .point2 (325, 325)
-ENDSHAPE
+shape backright(line):
+  .color = RED
+  .point1 = (325, 225)
+  .point2 = (325, 325)
+endshape
 
-SHAPE LINE
-  .name backbottom
-  .color black
-  .point1 (225, 325)
-  .point2 (325, 325)
-ENDSHAPE
+shape backbottom(line):
+  .color = BLACK
+  .point1 = (225, 325)
+  .point2 = (325, 325)
+endshape
 
-SHAPE LINE
-  .name backtop
-  .color blue
-  .point1 (225, 225)
-  .point2 (325, 225)
-ENDSHAPE
+shape backtop(line):
+  .color = BLUE
+  .point1 = (225, 225)
+  .point2 = (325, 225)
+endshape
 
 
-MOVE fronttop UP 25
-MOVE frontbottom DOWN 25
-MOVE frontleft LEFT 25
-MOVE frontright RIGHT 25
+fronttop.move(UP, 25)
+frontbottom.move(DOWN, 25)
+frontleft.move(LEFT, 25)
+frontright.move(RIGHT, 25)
 
-MOVE fronttop DOWN 25
-MOVE frontbottom UP 25
-MOVE frontleft RIGHT 25
-MOVE frontright LEFT 25
+fronttop.move(DOWN, 25)
+frontbottom.move(UP, 25)
+frontleft.move(RIGHT, 25)
+frontright.move(LEFT, 25)
 
-MOVE backtop UP 25
-MOVE backbottom DOWN 25
-MOVE backleft LEFT 25
-MOVE backright RIGHT 25
+backtop.move(UP, 25)
+backbottom.move(DOWN, 25)
+backleft.move(LEFT, 25)
+backright.move(RIGHT, 25)
 
-MOVE backtop DOWN 25
-MOVE backbottom UP 25
-MOVE backleft RIGHT 25
-MOVE backright LEFT 25
+backtop.move(DOWN, 25)
+backbottom.move(UP, 25)
+backleft.move(RIGHT, 25)
+backright.move(LEFT, 25)
