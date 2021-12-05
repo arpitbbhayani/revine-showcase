@@ -1,134 +1,155 @@
-SHAPE RECTANGLE
-  .position (175, 100)
-  .width 150 .height 350
-  .thickness 5
-ENDSHAPE
+shape shelf(rectangle):
+  .position = (175, 100)
+  .width = 150
+  .height = 350
+  .thickness = 5
+endshape
 
-SHAPE LINE
-  .point1 (175, 200)
-  .point2 (325, 200)
-  .thickness 3
-ENDSHAPE
+shape rack1(line):
+  .point1 = (175, 200)
+  .point2 = (325, 200)
+  .thickness = 3
+endshape
 
-SHAPE RECTANGLE
-  .position (185, 125)
-  .width 20 .height 73
-ENDSHAPE
+shape book1(rectangle):
+  .position = (185, 125)
+  .width = 20
+  .height = 73
+endshape
 
-SHAPE RECTANGLE
-  .position (205, 145)
-  .width 20 .height 53
-ENDSHAPE
+shape book2(rectangle):
+  .position = (205, 145)
+  .width = 20
+  .height = 53
+endshape
 
-SHAPE RECTANGLE
-  .position (245, 150)
-  .width 65 .height 15
-ENDSHAPE
+shape book3(rectangle):
+  .position = (245, 150)
+  .width = 65
+  .height = 15
+endshape
 
-SHAPE RECTANGLE
-  .position (235, 166)
-  .width 85 .height 15
-ENDSHAPE
+shape book4(rectangle):
+  .position = (235, 166)
+  .width = 85
+  .height = 15
+endshape
 
-SHAPE RECTANGLE
-  .position (235, 182)
-  .width 85 .height 15
-ENDSHAPE
+shape book5(rectangle):
+  .position = (235, 182)
+  .width = 85
+  .height = 15
+endshape
 
-SHAPE LINE
-  .point1 (175, 300)
-  .point2 (325, 300)
-  .thickness 3
-ENDSHAPE
+shape rack2(line):
+  .point1 = (175, 300)
+  .point2 = (325, 300)
+  .thickness = 3
+endshape
 
-SHAPE RECTANGLE
-  .position (195, 250)
-  .width 55 .height 15
-ENDSHAPE
+shape book6(rectangle):
+  .position = (195, 250)
+  .width = 55
+  .height = 15
+endshape
 
-SHAPE RECTANGLE
-  .position (185, 266)
-  .width 75 .height 15
-ENDSHAPE
+shape book7(rectangle):
+  .position = (185, 266)
+  .width = 75
+  .height = 15
+endshape
 
-SHAPE RECTANGLE
-  .position (185, 282)
-  .width 85 .height 15
-ENDSHAPE
+shape book8(rectangle):
+  .position = (185, 282)
+  .width = 85
+  .height = 15
+endshape
 
-SHAPE RECTANGLE
-  .position (280, 225)
-  .width 10 .height 73
-ENDSHAPE
+shape book9(rectangle):
+  .position = (280, 225)
+  .width = 10
+  .height = 73
+endshape
 
-SHAPE RECTANGLE
-  .position (290, 245)
-  .width 10 .height 53
-ENDSHAPE
+shape book10(rectangle):
+  .position = (290, 245)
+  .width = 10
+  .height = 53
+endshape
 
-SHAPE RECTANGLE
-  .position (300, 235)
-  .width 15 .height 63
-ENDSHAPE
-
-
-SHAPE LINE
-  .point1 (175, 395)
-  .point2 (325, 395).thickness 3
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (185, 320)
-  .width 10 .height 73
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (195, 340)
-  .width 10 .height 53
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (205, 330)
-  .width 15 .height 63
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (220, 325)
-  .width 11 .height 68
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (231, 320)
-  .width 13 .height 73
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (270, 330)
-  .width 15 .height 63
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (285, 335)
-  .width 15 .height 58
-ENDSHAPE
-
-SHAPE RECTANGLE
-  .position (300, 330)
-  .width 15 .height 63
-ENDSHAPE
+shape book11(rectangle):
+  .position = (300, 235)
+  .width = 15
+  .height = 63
+endshape
 
 
-SHAPE LINE
-  .point1 (0, 450)
-  .point2 (500, 450)
-ENDSHAPE
+shape rack3(line):
+  .point1 = (175, 395)
+  .point2 = (325, 395)
+  .thickness = 3
+endshape
 
-SHAPE LINE
-  .point1 (5, 455)
-  .point2 (495, 455)
-ENDSHAPE
+shape book12(rectangle):
+  .position = (185, 320)
+  .width = 10
+  .height = 73
+endshape
 
-SHAPE LINE
-  .point1 (10, 460)
-  .point2 (490, 460)
-ENDSHAPE
+shape book13(rectangle):
+  .position = (195, 340)
+  .width = 10
+  .height = 53
+endshape
+
+shape book14(rectangle):
+  .position = (205, 330)
+  .width = 15
+  .height = 63
+endshape
+
+shape book15(rectangle):
+  .position = (220, 325)
+  .width = 11
+  .height = 68
+endshape
+
+shape book16(rectangle):
+  .position = (231, 320)
+  .width = 13
+  .height = 73
+endshape
+
+shape book17(rectangle):
+  .position = (270, 330)
+  .width = 15
+  .height = 63
+endshape
+
+shape book18(rectangle):
+  .position = (285, 335)
+  .width = 15
+  .height = 58
+endshape
+
+shape book19(rectangle):
+  .position = (300, 330)
+  .width = 15
+  .height = 63
+endshape
+
+
+shape surface1(line):
+  .point1 = (0, 450)
+  .point2 = (500, 450)
+endshape
+
+shape surface2(line):
+  .point1 = (5, 455)
+  .point2 = (495, 455)
+endshape
+
+shape surface3(line):
+  .point1 = (10, 460)
+  .point2 = (490, 460)
+endshape
