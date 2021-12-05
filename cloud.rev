@@ -1,45 +1,50 @@
-SHAPE CIRCLE
-  .name c1
-  .center (100, 200)
-  .radius 75 .color lightgrey .fill lightgrey
-ENDSHAPE
+shape c1(circle):
+  .center = (100, 200)
+  .radius = 75
+  .color = lightgrey
+  .fill = lightgrey
+endshape
 
-SHAPE CIRCLE
-  .name c2
-  .center (170, 170)
-  .radius 125 .color lightgrey .fill lightgrey
-ENDSHAPE
+shape c2(circle):
+  .center = (170, 170)
+  .radius = 125
+  .color = lightgrey
+  .fill = lightgrey
+endshape
 
-SHAPE CIRCLE
-  .name c3
-  .center (270, 160)
-  .radius 145 .color lightgrey .fill lightgrey
-ENDSHAPE
+shape c3(circle):
+  .center = (270, 160)
+  .radius = 145
+  .color = lightgrey
+  .fill = lightgrey
+endshape
 
-SHAPE CIRCLE
-  .name c4
-  .center (330, 180)
-  .radius 100 .color lightgrey .fill lightgrey
-ENDSHAPE
+shape c4(circle):
+  .center = (330, 180)
+  .radius = 100
+  .color = lightgrey
+  .fill = lightgrey
+endshape
 
-SHAPE CIRCLE
-  .name c5
-  .center (380, 200)
-  .radius 75 .color lightgrey .fill lightgrey
-ENDSHAPE
+shape c5(circle):
+  .center = (380, 200)
+  .radius = 75
+  .color = lightgrey
+  .fill = lightgrey
+endshape
 
 
-MOVE c1 RIGHT 50
-MOVE c1 LEFT 50
+c1.move(RIGHT, 50)
+c1.move(LEFT, 50)
 
-MOVE c2 RIGHT 50
-MOVE c2 LEFT 50
+c2.move(RIGHT, 50)
+c2.move(LEFT, 50)
 
-MOVE c3 RIGHT 50
-MOVE c3 LEFT 50
+c3.move(RIGHT, 50)
+c3.move(LEFT, 50)
 
-MOVE c4 RIGHT 50
-MOVE c4 LEFT 50
+c4.move(RIGHT, 50)
+c4.move(LEFT, 50)
 
-MOVE c5 RIGHT 50
-MOVE c5 LEFT 50
+c5.move(RIGHT, 50)
+c5.move(LEFT, 50)
