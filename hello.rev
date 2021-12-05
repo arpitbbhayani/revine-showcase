@@ -1,8 +1,7 @@
-SHAPE TEXT
-  .name greeting
-  .text "Hello"
-  .color red
-  .position (100, 100)
-ENDSHAPE
+shape greeting(text):
+  .text = "Hello"
+  .color = RED
+  .position = (100, 100)
+endshape
 
-MOVE greeting RIGHT 50
+greeting.move(RIGHT, 50)
