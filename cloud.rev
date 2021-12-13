@@ -1,50 +1,42 @@
-shape c1(circle):
-  .center = (100, 200)
-  .radius = 75
-  .color = lightgrey
-  .fill = lightgrey
-endshape
+object cloud():
 
-shape c2(circle):
-  .center = (170, 170)
-  .radius = 125
-  .color = lightgrey
-  .fill = lightgrey
-endshape
+  shape c1(circle):
+    .center = (100, 200)
+    .radius = 75
+    .color = lightgrey
+    .fill = lightgrey
+  endshape
 
-shape c3(circle):
-  .center = (270, 160)
-  .radius = 145
-  .color = lightgrey
-  .fill = lightgrey
-endshape
+  shape c2(circle):
+    .center = (170, 170)
+    .radius = 125
+    .color = lightgrey
+    .fill = lightgrey
+  endshape
 
-shape c4(circle):
-  .center = (330, 180)
-  .radius = 100
-  .color = lightgrey
-  .fill = lightgrey
-endshape
+  shape c3(circle):
+    .center = (270, 160)
+    .radius = 145
+    .color = lightgrey
+    .fill = lightgrey
+  endshape
 
-shape c5(circle):
-  .center = (380, 200)
-  .radius = 75
-  .color = lightgrey
-  .fill = lightgrey
-endshape
+  shape c4(circle):
+    .center = (330, 180)
+    .radius = 100
+    .color = lightgrey
+    .fill = lightgrey
+  endshape
+
+  shape c5(circle):
+    .center = (380, 200)
+    .radius = 75
+    .color = lightgrey
+    .fill = lightgrey
+  endshape
+
+endobject
 
 
-c1.move(RIGHT, 50)
-c1.move(LEFT, 50)
-
-c2.move(RIGHT, 50)
-c2.move(LEFT, 50)
-
-c3.move(RIGHT, 50)
-c3.move(LEFT, 50)
-
-c4.move(RIGHT, 50)
-c4.move(LEFT, 50)
-
-c5.move(RIGHT, 50)
-c5.move(LEFT, 50)
+cloud.move(right, 50)
+cloud.move(left, 50)
