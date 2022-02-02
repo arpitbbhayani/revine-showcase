@@ -12,6 +12,14 @@ shape tree(rectangle):
   .height = 50
 endshape
 
+shape dino(rectangle):
+  .color = RED
+  .position = (50, 284)
+  .fill = RED
+  .width = 25
+  .height = 65
+endshape
+
 loop
 	tree.move(LEFT)
 endloop
