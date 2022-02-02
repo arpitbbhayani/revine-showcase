@@ -1,0 +1,17 @@
+shape land(line):
+  .color = BLACK
+  .point1 = (500, 350)
+  .point2 = (0, 350)
+endshape
+
+shape tree(rectangle):
+  .color = GREEN
+  .position = (450, 298)
+  .fill = GREEN
+  .width = 15
+  .height = 50
+endshape
+
+loop
+	tree.move(LEFT)
+endloop
