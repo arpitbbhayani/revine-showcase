@@ -37,6 +37,6 @@ object cloud():
 
 endobject
 
-
-cloud.move(right, 50)
-cloud.move(left, 50)
+loop
+	cloud.move(RIGHT)
+endloop
