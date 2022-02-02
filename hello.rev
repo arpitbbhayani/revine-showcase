@@ -4,4 +4,6 @@ shape greeting(text):
   .position = (100, 100)
 endshape
 
-greeting.move(RIGHT, 50)
+loop
+	greeting.move(RIGHT)
+endloop
