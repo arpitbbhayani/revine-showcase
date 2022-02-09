@@ -20,6 +20,16 @@ shape dino(rectangle):
   .height = 65
 endshape
 
+onkey w
+  dino.move(UP)
+  dino.move(UP)
+  dino.move(UP)
+  dino.move(UP)
+  dino.move(UP)
+  dino.move(UP)
+  dino.move(UP)
+endonkey
+
 loop
-	tree.move(LEFT)
+  tree.move(LEFT)
 endloop
