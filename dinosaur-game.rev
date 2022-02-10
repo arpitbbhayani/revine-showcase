@@ -21,13 +21,7 @@ shape dino(rectangle):
 endshape
 
 onkey w
-  dino.move(UP)
-  dino.move(UP)
-  dino.move(UP)
-  dino.move(UP)
-  dino.move(UP)
-  dino.move(UP)
-  dino.move(UP)
+  dino.jump(100)
 endonkey
 
 loop
