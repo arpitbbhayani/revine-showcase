@@ -20,6 +20,13 @@ shape dino(rectangle):
   .height = 65
 endshape
 
+shape sun(circle):
+  .color = YELLOW
+  .center = (400, 100)
+  .fill = YELLOW
+  .radius = 25
+endshape
+
 onkey w
   dino.jump(100)
 endonkey
